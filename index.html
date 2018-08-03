@@ -2,16 +2,76 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-  <title>NY times app</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="../UI/style.css">
+ <title>NY times app</title>
 </head>
 
 <body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script type="text/javascript">
+   <div class="container-fluid">
+       
+   <div class="jumbotron">
+       <h1 class="display-4">New York Times App</h1>
+     
+     </div>
+
+     <div class="form-group">
+       <label for="formGroupExampleInput">Search</label>
+       <input type="text" class="form-control" id="search" placeholder="search">
+     </div>
+     <div class="form-group">
+       <label for="formGroupExampleInput2">Record</label>
+       <input type="text" class="form-control" id="record" placeholder="record information">
+     </div>
+     <div class="form-group">
+         <label for="formGroupExampleInput2">Start Year (optional)</label>
+         <input type="text" class="form-control" id="startYear" placeholder="start year information">
+       </div>
+       <div class="form-group">
+           <label for="formGroupExampleInput2">End Year (optional)</label>
+           <input type="text" class="form-control" id="endYear" placeholder="end year information information">
+         </div>
+         <button id="searchBtn" type="button">Search</button>
+         <button id="clearBtn" type="button">Clear Results</button>
+       </div>
+       </div>
 
 
 
-  	</script>
+   <div id="articles">
+       <div class="list-group">
+           <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+             <div class="d-flex w-100 justify-content-between">
+               <h5 class="mb-1">List group item heading</h5>
+               <small>3 days ago</small>
+             </div>
+             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+             <small>Donec id elit non mi porta.</small>
+           </a>
+           <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+             <div class="d-flex w-100 justify-content-between">
+               <h5 class="mb-1">List group item heading</h5>
+               <small class="text-muted">3 days ago</small>
+             </div>
+             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+             <small class="text-muted">Donec id elit non mi porta.</small>
+           </a>
+           <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+             <div class="d-flex w-100 justify-content-between">
+               <h5 class="mb-1">List group item heading</h5>
+               <small class="text-muted">3 days ago</small>
+             </div>
+             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+             <small class="text-muted">Donec id elit non mi porta.</small>
+           </a>
+         </div>
+   </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script type="text/javascript">
+
+
+   
+     </script>
 </body>
